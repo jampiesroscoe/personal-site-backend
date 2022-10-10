@@ -17,7 +17,6 @@ export class CurriculumVitaeController {
   @Get()
   async findAll() {
     const result = await this.curriculumVitaeService.findAll();
-    console.log(result);
     return result;
   }
 
